@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Empl
+comment1.params=age\ name\ nation
+comment1.target=void\ get_display(int,\ java.lang.String,\ java.lang.String)
+comment2.params=id\ company\ loc\ age\ name\ nation
+comment2.target=void\ display2(int,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
