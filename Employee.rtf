@@ -8,15 +8,23 @@
 \f0\fs24 \cf0 Import java.io.*\
 public class Employee\
 \{\
-	public static void pay(String name, int salary)\
+	public Employee()\
 	\{\
-		System.out.println(\'93pay this guy\'94+name+\'94a salary of \'93+salary);\
+	String name;\
+       Int salary;	\
 	\}\
+public static void pay(String name, int salary)\{\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 System.out.println(\'93pay this guy\'94+name+\'94a salary of \'93+salary);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\}\
 \}\
 public static void main(String args[])) \
 \{\
-	Employee em= new Employee;\
+	Employee em= new Employee();\
+        em.pay(\'93Abhijith\'94,50000);\
 \
-	em.pay(\'93Abhijith\'94,50000);\
+	\
 \}\
 \}}
