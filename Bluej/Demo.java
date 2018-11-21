@@ -14,3 +14,6 @@ public static void main(){
     obj=new Jack();
     obj.say();
 }}
+'''
+I have included both static and dynamic polymorphism example into one program
+'''
