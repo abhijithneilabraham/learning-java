@@ -12,5 +12,14 @@ public void run(){
 }
 public class ThreadDemo extends Thread
 {
-    pub
+    public static void main(String args[])
+    {
+       Thread1 t1=new Thread1();
+       Thread ma=Thread.currentThread();
+       System.out.println("Main thread is "+ma); 
+       for(int i=0;i<10;i++)
+{
+System.out.println("Inside the run of main "+i);
+Thread.sleep(1000);
+    }}}
     
