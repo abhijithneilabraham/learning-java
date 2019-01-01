@@ -1,12 +1,24 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the staircase function below.
+def staircase(n):
+
+if __name__ == '__main__':
+    n = int(input())
+    i=6
+for j in range(6):
+
+        
+       while(i!=0):
+        print(' ')
+        i=i-1
+    
 
 
-public class Hello {
-
-   /* This is my first java program.
-    * This will print 'Hello World' as the output
-    */
-
-   public static void main(String []args) {
-      System.out.println("Hello World"); // prints Hello World
-   }
-}
+    staircase(n)
